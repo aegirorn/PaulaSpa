@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A Single Page Application</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="spa.css">
+    <!--  -->
+</head>
+<body>
+    <main>
+        <div class="page active" id="home">
+            <div class="nav">
+                <ul>
+                    <li><a href="#" data-target="home" class="nav-link oi oi-home">Home</a></li>
+                    <li><a href="#" data-target="list" class="nav-link">List</a></li>
+                    <li><a href="#" data-target="detail" class="nav-link">Detail</a></li>
+                </ul>
+            </div>
+            <div class="main-area">
+                <h1>Home</h1>
+                <p1>Home content here</p1>
+            </div>
+            
+        </div>
+         <div class="page" id="list"> 
+            <div class="nav">
+                <ul>
+                    <li><a href="#" data-target="home" class="nav-link">Home</a></li>
+                    <li><a href="#" data-target="list" class="nav-link">List</a></li>
+                    <li><a href="#" data-target="detail" class="nav-link">Detail</a></li>
+                </ul>
+            </div>
+            <div class="main-area">
+                <h1>List</h1>
+                <hp>List content here</hp>
+            </div>
+        </div>
+        
+        <div class="page" id="detail">
+            <div class="nav">
+            
+                <ul>
+                    <li><a href="#" data-target="home" class="nav-link">Home</a></li>
+                    <li><a href="#" data-target="list" class="nav-link">List</a></li>
+                    <li><a href="#" data-target="detail" class="nav-link">Detail</a></li>
+                </ul>
+            </div>
+            <div class="main-area">
+                <h1>Detail</h1>
+                <p1>Detail content here</p1>
+            </div>
+        </div> 
+    </main>   
+    
+    <script src="spa.js"></script>  
+</body>
+</html>
